@@ -1,4 +1,4 @@
-FROM registry:latest
+FROM registry:2.5.2
 
 RUN apk update && apk add apache2-utils
 
